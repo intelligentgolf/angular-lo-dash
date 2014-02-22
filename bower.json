@@ -1,0 +1,25 @@
+{
+  "name": "angular-lo-dash",
+  "version": "0.0.1",
+  "homepage": "https://github.com/intelligentgolf/angular-lo-dash",
+  "authors": [
+    "Michal Charemza <michalcharemza@gmail.com>"
+  ],
+  "description": "A tiny AngularJS module to make the lo-dash global object available to the AngularJS DI system",
+  "main": [
+    "src/angular-lo-dash.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "angular": "~1.2.13",
+    "angular-mocks": "~1.2.13"
+  }
+}
