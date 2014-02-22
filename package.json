@@ -13,7 +13,6 @@
     "karma": "~0.10.9"
   },
   "scripts": {
-     // Travis CI calls "npm test"
      "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS,Firefox"
   }
 }
